@@ -1,0 +1,44 @@
+plugins {
+    id 'java'
+    id 'org.springframework.boot' version '4.1.1'
+    id 'io.spring.dependency-management' version '1.1.7'
+}
+
+group = 'com.vienna.demo'
+version = '0.0.1-SNAPSHOT'
+description = '@DbColumn 매핑 예제를 보여주는 독립 Spring Boot 데모 애플리케이션입니다.'
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(25)
+    }
+}
+
+repositories {
+    mavenCentral()
+    maven { url = uri('https://jitpack.io') }
+}
+
+ext {
+    set('h2Version', '2.5.252')
+    set('lombokVersion', '1.18.48')
+    set('dbColumnVersion', '0.0.1')
+}
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation "com.github.viennacafe.mybatis-dbcolumn:mybatis-dbcolumn-spring-boot-starter:${dbColumnVersion}"
+
+    runtimeOnly "com.h2database:h2:${h2Version}"
+    runtimeOnly 'org.springframework.boot:spring-boot-h2console'
+
+    compileOnly "org.projectlombok:lombok:${lombokVersion}"
+    annotationProcessor "org.projectlombok:lombok:${lombokVersion}"
+
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+}
+
+tasks.named('test') {
+    useJUnitPlatform()
+}
