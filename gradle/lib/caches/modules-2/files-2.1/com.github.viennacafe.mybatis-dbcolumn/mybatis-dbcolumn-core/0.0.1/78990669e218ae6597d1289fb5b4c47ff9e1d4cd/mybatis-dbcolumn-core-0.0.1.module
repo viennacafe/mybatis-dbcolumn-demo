@@ -1,0 +1,101 @@
+{
+  "formatVersion" : "1.1",
+  "component" : {
+    "group" : "com.github.viennacafe",
+    "module" : "mybatis-dbcolumn",
+    "version" : "0.0.1",
+    "attributes" : {
+      "org.gradle.status" : "release"
+    }
+  },
+  "createdBy" : {
+    "gradle" : {
+      "version" : "9.8.0"
+    }
+  },
+  "variants" : [ {
+    "name" : "apiElements",
+    "attributes" : {
+      "org.gradle.category" : "library",
+      "org.gradle.dependency.bundling" : "external",
+      "org.gradle.jvm.version" : "25",
+      "org.gradle.libraryelements" : "jar",
+      "org.gradle.usage" : "java-api"
+    },
+    "dependencies" : [ {
+      "group" : "org.mybatis",
+      "module" : "mybatis",
+      "version" : {
+        "requires" : "3.5.19"
+      }
+    } ],
+    "files" : [ {
+      "name" : "mybatis-dbcolumn-core-0.0.1.jar",
+      "url" : "mybatis-dbcolumn-core-0.0.1.jar",
+      "size" : 5021,
+      "sha512" : "e7eae5e19d2bdc99a14a5c6aec5eaa391ca7ba74425d1ac09de681714ee52a6a52c9bccd04afa9bdd5dcd9012a404e86353d538ab3435e42cff3563f3e4eab1d",
+      "sha256" : "64695005126c1255a553ed04e21d09d9cf731e9d4defb530c2194a38902ccd51",
+      "sha1" : "afca307fe4f8a8fab7ba3977bbd5cf09fb71ee63",
+      "md5" : "8fb346d2403ce9611c772732817cbb5f"
+    } ]
+  }, {
+    "name" : "runtimeElements",
+    "attributes" : {
+      "org.gradle.category" : "library",
+      "org.gradle.dependency.bundling" : "external",
+      "org.gradle.jvm.version" : "25",
+      "org.gradle.libraryelements" : "jar",
+      "org.gradle.usage" : "java-runtime"
+    },
+    "dependencies" : [ {
+      "group" : "org.mybatis",
+      "module" : "mybatis",
+      "version" : {
+        "requires" : "3.5.19"
+      }
+    } ],
+    "files" : [ {
+      "name" : "mybatis-dbcolumn-core-0.0.1.jar",
+      "url" : "mybatis-dbcolumn-core-0.0.1.jar",
+      "size" : 5021,
+      "sha512" : "e7eae5e19d2bdc99a14a5c6aec5eaa391ca7ba74425d1ac09de681714ee52a6a52c9bccd04afa9bdd5dcd9012a404e86353d538ab3435e42cff3563f3e4eab1d",
+      "sha256" : "64695005126c1255a553ed04e21d09d9cf731e9d4defb530c2194a38902ccd51",
+      "sha1" : "afca307fe4f8a8fab7ba3977bbd5cf09fb71ee63",
+      "md5" : "8fb346d2403ce9611c772732817cbb5f"
+    } ]
+  }, {
+    "name" : "javadocElements",
+    "attributes" : {
+      "org.gradle.category" : "documentation",
+      "org.gradle.dependency.bundling" : "external",
+      "org.gradle.docstype" : "javadoc",
+      "org.gradle.usage" : "java-runtime"
+    },
+    "files" : [ {
+      "name" : "mybatis-dbcolumn-core-0.0.1.jar",
+      "url" : "mybatis-dbcolumn-core-0.0.1.jar",
+      "size" : 4165682,
+      "sha512" : "bfb9b9a94db8b5a50abc52d55f15d8008a2dff5fc0702159e72905d88bafb3885d3c48199d29f4a8736747f85babb7be6b77e3494c47af180979d594d37d9766",
+      "sha256" : "69f4959725468c434ab577b55332c3b0c784ed96b3c6170c1d77f68a2939b616",
+      "sha1" : "54ce6f2dd1c103c5584554a9814ec52e9b4cef73",
+      "md5" : "5f2c023c36e18c0c2f19f3b4ec1e9ddd"
+    } ]
+  }, {
+    "name" : "sourcesElements",
+    "attributes" : {
+      "org.gradle.category" : "documentation",
+      "org.gradle.dependency.bundling" : "external",
+      "org.gradle.docstype" : "sources",
+      "org.gradle.usage" : "java-runtime"
+    },
+    "files" : [ {
+      "name" : "mybatis-dbcolumn-core-0.0.1.jar",
+      "url" : "mybatis-dbcolumn-core-0.0.1.jar",
+      "size" : 4245,
+      "sha512" : "128f5a3d47d16f476acda4805327faf6d46554caf4ed118bc7b9e9941baef1ea9a7b53a8e601ed1892cf4123e6120712ec3481e54548a5c0414b86ec323be94d",
+      "sha256" : "9e99337df05a8fafd052ba26a2801fcaa217389b52e520e79a5ff6fccf49c67d",
+      "sha1" : "499617525dcc8797217c601ed48dc9eee761681e",
+      "md5" : "e3c2a55f58091897a8ba79dbb7e44809"
+    } ]
+  } ]
+}

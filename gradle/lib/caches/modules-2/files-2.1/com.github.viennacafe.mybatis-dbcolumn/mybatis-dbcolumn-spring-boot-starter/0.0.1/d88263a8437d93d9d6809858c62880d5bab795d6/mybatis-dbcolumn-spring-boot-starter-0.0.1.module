@@ -1,0 +1,119 @@
+{
+  "formatVersion" : "1.1",
+  "component" : {
+    "group" : "com.github.viennacafe",
+    "module" : "mybatis-dbcolumn",
+    "version" : "0.0.1",
+    "attributes" : {
+      "org.gradle.status" : "release"
+    }
+  },
+  "createdBy" : {
+    "gradle" : {
+      "version" : "9.8.0"
+    }
+  },
+  "variants" : [ {
+    "name" : "apiElements",
+    "attributes" : {
+      "org.gradle.category" : "library",
+      "org.gradle.dependency.bundling" : "external",
+      "org.gradle.jvm.version" : "25",
+      "org.gradle.libraryelements" : "jar",
+      "org.gradle.usage" : "java-api"
+    },
+    "dependencies" : [ {
+      "group" : "com.github.viennacafe.mybatis-dbcolumn",
+      "module" : "mybatis-dbcolumn-core",
+      "version" : {
+        "requires" : "0.0.1"
+      }
+    }, {
+      "group" : "org.mybatis.spring.boot",
+      "module" : "mybatis-spring-boot-starter",
+      "version" : {
+        "requires" : "4.1.0"
+      }
+    } ],
+    "files" : [ {
+      "name" : "mybatis-dbcolumn-spring-boot-starter-0.0.1.jar",
+      "url" : "mybatis-dbcolumn-spring-boot-starter-0.0.1.jar",
+      "size" : 2305,
+      "sha512" : "c22d8bbb2e1e2424fdf124d7bf6328b6874b0f99b5e8c632531e2cf137c78e017bb221078f92b0f518747fb35d7a72c531bd7e21989bce300c384bc7b9b40ca9",
+      "sha256" : "25e30f4fa6b8a93ea39c74b4e005731eec486d72dbbd81e4aa2cd580c54de351",
+      "sha1" : "7fe4cb5d8a31c9fa9eae258d3531fa56ff988bb1",
+      "md5" : "6baa0c732365f80a6fe594a1f94a61aa"
+    } ]
+  }, {
+    "name" : "runtimeElements",
+    "attributes" : {
+      "org.gradle.category" : "library",
+      "org.gradle.dependency.bundling" : "external",
+      "org.gradle.jvm.version" : "25",
+      "org.gradle.libraryelements" : "jar",
+      "org.gradle.usage" : "java-runtime"
+    },
+    "dependencies" : [ {
+      "group" : "org.springframework.boot",
+      "module" : "spring-boot-autoconfigure",
+      "version" : {
+        "requires" : "4.1.1"
+      }
+    }, {
+      "group" : "com.github.viennacafe.mybatis-dbcolumn",
+      "module" : "mybatis-dbcolumn-core",
+      "version" : {
+        "requires" : "0.0.1"
+      }
+    }, {
+      "group" : "org.mybatis.spring.boot",
+      "module" : "mybatis-spring-boot-starter",
+      "version" : {
+        "requires" : "4.1.0"
+      }
+    } ],
+    "files" : [ {
+      "name" : "mybatis-dbcolumn-spring-boot-starter-0.0.1.jar",
+      "url" : "mybatis-dbcolumn-spring-boot-starter-0.0.1.jar",
+      "size" : 2305,
+      "sha512" : "c22d8bbb2e1e2424fdf124d7bf6328b6874b0f99b5e8c632531e2cf137c78e017bb221078f92b0f518747fb35d7a72c531bd7e21989bce300c384bc7b9b40ca9",
+      "sha256" : "25e30f4fa6b8a93ea39c74b4e005731eec486d72dbbd81e4aa2cd580c54de351",
+      "sha1" : "7fe4cb5d8a31c9fa9eae258d3531fa56ff988bb1",
+      "md5" : "6baa0c732365f80a6fe594a1f94a61aa"
+    } ]
+  }, {
+    "name" : "javadocElements",
+    "attributes" : {
+      "org.gradle.category" : "documentation",
+      "org.gradle.dependency.bundling" : "external",
+      "org.gradle.docstype" : "javadoc",
+      "org.gradle.usage" : "java-runtime"
+    },
+    "files" : [ {
+      "name" : "mybatis-dbcolumn-spring-boot-starter-0.0.1.jar",
+      "url" : "mybatis-dbcolumn-spring-boot-starter-0.0.1.jar",
+      "size" : 4147615,
+      "sha512" : "8ceecb5b4dadd6a623e03c44e9261a2a27371aeea843fe7e1e65cf838745e4d8c9353744c5f2aa22a6677706b0a729133198be59298c6de9faf365970f57e993",
+      "sha256" : "3cb83c2244a7db1b7ae91045e703c765be8290b86fcf7e8c090a4f1847e0f13e",
+      "sha1" : "225f27925b6001d170551413b1074c9caf024b15",
+      "md5" : "98b67cf4c2c6e2ffe31ddf6ca2cd8b9c"
+    } ]
+  }, {
+    "name" : "sourcesElements",
+    "attributes" : {
+      "org.gradle.category" : "documentation",
+      "org.gradle.dependency.bundling" : "external",
+      "org.gradle.docstype" : "sources",
+      "org.gradle.usage" : "java-runtime"
+    },
+    "files" : [ {
+      "name" : "mybatis-dbcolumn-spring-boot-starter-0.0.1.jar",
+      "url" : "mybatis-dbcolumn-spring-boot-starter-0.0.1.jar",
+      "size" : 2072,
+      "sha512" : "4f8219724ce4127b0a37844fb720494c50619ca124af7b5a78c658be4b8c46bc9e75751e2faa996161664c1e477dcd46f9559a9d8467633e126f9a74affdb01b",
+      "sha256" : "341c1ac77934db261d8e8f40ae221f806e4affe59cb0aba6d01e62b287fd9db2",
+      "sha1" : "22223e3b6f9eefb23f1faee6fd50b81a2d509cb8",
+      "md5" : "853fef07b489eb2d97a262ef40d66551"
+    } ]
+  } ]
+}

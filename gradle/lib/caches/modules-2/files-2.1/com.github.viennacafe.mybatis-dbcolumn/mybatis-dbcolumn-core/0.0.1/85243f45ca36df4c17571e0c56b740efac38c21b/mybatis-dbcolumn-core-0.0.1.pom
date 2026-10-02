@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- do_not_remove: published-with-gradle-metadata -->
+<modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.viennacafe.mybatis-dbcolumn</groupId>
+  <artifactId>mybatis-dbcolumn-core</artifactId>
+  <version>0.0.1</version>
+  <name>mybatis-dbcolumn-core</name>
+  <description>@DbColumn 애노테이션과 MyBatis ObjectWrapperFactory 구현체. Spring에 의존하지 않는 순수 MyBatis 확장 라이브러리입니다.</description>
+  <dependencies>
+    <dependency>
+      <groupId>org.mybatis</groupId>
+      <artifactId>mybatis</artifactId>
+      <version>3.5.19</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>
